@@ -1,0 +1,21 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <title>robert-baldwin.github.io</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/tachyons.css"/>
+
+  <body class="helvetica bg-black-90">
+    <h1 class="green bb f-headline lh-solid">robert-baldwin.github.io</h1>
+
+    <div class="yellow ph6 pt3 f4 lh-copy tracked-tight">
+      {% for post in site.posts %}
+        <div class="measure pb1">
+          {{ post }}
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
