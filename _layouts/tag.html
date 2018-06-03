@@ -1,5 +1,7 @@
+---
+layout: default
+---
+
 {% for post in site.tags[page.tag] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
+  {% include post_list_item.html %}
 {% endfor %}

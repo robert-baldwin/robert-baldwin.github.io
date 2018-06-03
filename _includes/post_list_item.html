@@ -1,0 +1,13 @@
+<div class="pb1 measure-wide">
+  <h1 class="lh-title dib v-top">
+    <a href="{{ post.url }}" class="link gold hover-bg-black">{{ post.title }}</a>
+  </h1>
+  <p class="gold dib v-top fr">{{ post.date | date: "%m/%d/%Y" }}</p>
+  <p class="dib v-top">
+  {% for tag in post.tags %}
+  <a class="underline-hover" href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+  </p>
+  {{ post.excerpt }}
+</div>
+

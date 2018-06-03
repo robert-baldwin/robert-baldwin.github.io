@@ -2,7 +2,7 @@
 layout: post
 title: "Vim Leader Commands"
 date: 2018-06-01 11:06:03 -0800
-tags: "git, vim"
+tags: [git, vim]
 excerpt_separator: <!--more-->
 ---
 
