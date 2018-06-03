@@ -6,7 +6,7 @@ tags: bash
 excerpt_separator: <!--more-->
 ---
 
-I was inspired to brush up on my bash by Adam Drake's [Command Line Tools Can Be 235x Faster Than Your Hadoop Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html). Here lies the fruit of my exploration.
+I was inspired to brush up on my bash by Adam Drake's Command Line Tools Can Be 235x Faster Than Your Hadoop Cluster<sup>[1](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)</sup>. Here lies the fruit of my exploration.
 <!--more-->
 
 ## Portability
