@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<h1 class="lh-title gold">{{ page.title }}</h1>
-
 <div class="measure-wide">
+  <h1 class="lh-title dib">{{ page.title }}</h1>
+  <p class="dib v-top fr">{{ page.date | date: "%m/%d/%Y" }}</p>
+
   {{ content }}
 </div>

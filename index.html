@@ -5,9 +5,11 @@ title: robert.baldwin.github.io
 
 {% for post in site.posts %}
   <div class="pb1 measure-wide">
-    <h1 class="lh-title">
+    <h1 class="lh-title dib v-top">
       <a href="{{ post.url }}" class="link gold hover-bg-black">{{ post.title }}</a>
     </h1>
+    <p class="gold dib v-top fr">{{ post.date | date: "%m/%d/%Y" }}</p>
+    <p class="dib v-top">{{ post.tags }}</p>
     {{ post.excerpt }}
   </div>
 {% endfor %}
